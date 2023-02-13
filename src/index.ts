@@ -18,7 +18,7 @@ export interface Options {
   outFileName?: string;
   /**
    * Archive Type
-   * @default `7z`
+   * @default `zip`
    */
   type?: "7z" | "zip" | "lzma" | "cab" | "gzip" | "bzip2" | "tar";
 }
