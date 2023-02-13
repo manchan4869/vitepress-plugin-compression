@@ -1,7 +1,7 @@
 {
   "name": "vitepress-plugin-compression",
   "description": "VitePress plugin for packing build folder.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.mjs",
   "types": "dist/types/index.d.ts",
@@ -42,7 +42,8 @@
   "scripts": {
     "test": "npm run build && vitepress build docs",
     "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && npm run renameESM",
-    "renameESM": "node -e \"require('fs').rename('dist/esm/index.js', 'dist/esm/index.mjs', function(err) { if (err) console.log(err); console.log('Build successful!') })\""
+    "renameESM": "node -e \"require('fs').rename('dist/esm/index.js', 'dist/esm/index.mjs', function(err) { if (err) console.log(err); console.log('Build successful!') })\"",
+    "publish": "npm run build && npm publish"
   },
   "dependencies": {
     "7zip-min": "^1.4.4"
