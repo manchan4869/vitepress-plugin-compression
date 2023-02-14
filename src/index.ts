@@ -28,6 +28,7 @@ export default function compression(options?: Options) {
   const outDir = options?.outDir || "dist";
   const outFileName = options?.outFileName || "dist";
   const type = options?.type || "zip";
+  console.log("\x1b[32m%s\x1b[0m", `creating ${type} archive.`);
   _7z.pack(inDir, `${outDir}/${outFileName}.${type}`, (err) => {
     err === null
       ? console.log("\x1b[32m%s\x1b[0m", type + " archive packaging completed")
