@@ -1,6 +1,7 @@
 node_modules
-docs
+# docs
+cache
 dist
-
+.vscode
 test/package.json
 test/package-lock.json
