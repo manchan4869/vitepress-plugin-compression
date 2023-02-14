@@ -7,11 +7,11 @@
 [![npm download](https://img.shields.io/npm/dm/vitepress-plugin-compression?style=flat-square)](https://www.npmjs.com/package/vitepress-plugin-compression)
 [![license](https://img.shields.io/npm/l/vitepress-plugin-compression?style=flat-square)](https://github.com/manchan4869/vitepress-plugin-compression/blob/main/LICENSE)
 
-VitePress plugin for packing build folder.
+打包 `build` 文件夹的 [VitePress](https://github.com/vuejs/vitepress) 插件。
 
-English | [简体中文](./README.zh-CN.md)
+[English](./README.md) | 简体中文
 
-## Install
+## 安装
 
 ```bash
 # npm
@@ -24,7 +24,7 @@ yarn add -D vitepress-plugin-compression
 pnpm add -D vitepress-plugin-compression
 ```
 
-## Usage
+## 使用
 
 ```ts
 // .vitepress/config.js
@@ -38,33 +38,33 @@ export default defineConfig({
 });
 ```
 
-## Options
+## 选项
 
 ```ts
 export interface Options {
   /**
-   * Input Directory
+   * 输入目录
    * @default `dist`
    */
   inDir?: string;
   /**
-   * Output Directory
+   * 输出目录
    * @default `dist`
    */
   outDir?: string;
   /**
-   * Archive Name
+   * 打包名称
    * @default `dist`
    */
   outFileName?: string;
   /**
-   * Archive Type
+   * 打包类型
    * @default `zip`
    */
   type?: "7z" | "zip" | "lzma" | "cab" | "gzip" | "bzip2" | "tar";
 }
 ```
 
-## License
+## 许可
 
-MIT, see [the license file](./LICENSE)
+MIT, 查看[许可文件](./LICENSE)
