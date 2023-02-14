@@ -1,7 +1,7 @@
 {
   "name": "vitepress-plugin-compression",
   "description": "VitePress plugin for packing build folder.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.mjs",
   "types": "dist/types/index.d.ts",
