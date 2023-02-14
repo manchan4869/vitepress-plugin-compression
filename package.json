@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/manchan4869/vitepress-plugin-compression#readme",
   "scripts": {
-    "test": "npm run build && vitepress build docs",
+    "test": "npm run build && cd test && npm init -y && npm install -D vitepress && node mkdir.mjs && echo '# Hello VitePress' > docs/index.md && vitepress build docs",
     "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && npm run renameESM",
     "renameESM": "node -e \"require('fs').rename('dist/esm/index.js', 'dist/esm/index.mjs', function(err) { if (err) console.log(err); console.log('Build successful!') })\"",
     "publish": "npm run build && npm publish"

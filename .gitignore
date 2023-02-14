@@ -1,3 +1,6 @@
 node_modules
 docs
 dist
+
+test/package.json
+test/package-lock.json
