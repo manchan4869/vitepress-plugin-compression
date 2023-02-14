@@ -9,7 +9,7 @@
 
 打包 `build` 文件夹的 [VitePress](https://github.com/vuejs/vitepress) 插件。
 
-[English](/) | 简体中文
+[English](https://github.com/manchan4869/vitepress-plugin-compression#README) | 简体中文
 
 ## 安装
 
