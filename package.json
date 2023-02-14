@@ -43,7 +43,7 @@
     "test": "npm run build && cd test && npm init -y && npm install -D vitepress && node mkdir.mjs && echo '# Hello VitePress' > docs/index.md && vitepress build docs",
     "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && npm run renameESM",
     "renameESM": "node -e \"require('fs').rename('dist/esm/index.js', 'dist/esm/index.mjs', function(err) { if (err) console.log(err); console.log('Build successful!') })\"",
-    "publishNPM": "npm run build && npm publish"
+    "publishNPM": "npm run build && nrm use npm && npm publish && nrm use taobao"
   },
   "dependencies": {
     "7zip-min": "^1.4.4"
