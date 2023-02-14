@@ -9,7 +9,7 @@
 
 打包 `build` 文件夹的 [VitePress](https://github.com/vuejs/vitepress) 插件。
 
-[English](./README.md) | 简体中文
+[English](/) | 简体中文
 
 ## 安装
 
