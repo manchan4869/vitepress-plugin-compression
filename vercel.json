@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/:path",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept-language",
+          "value": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"
+        }
+      ],
+      "destination": "/zh-cn/:path",
+      "permanent": false
+    }
+  ]
+}
