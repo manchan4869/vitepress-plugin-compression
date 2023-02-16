@@ -1,4 +1,4 @@
-# vitepress-plugin-compression
+# VitePress-Plugin-Compression
 
 [![npm](https://img.shields.io/npm/v/vitepress-plugin-compression.svg?style=flat-square)](https://www.npmjs.com/package/vitepress-plugin-compression)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/vitepress-plugin-compression?style=flat-square)](https://bundlephobia.com/package/vitepress-plugin-compression@latest)
@@ -7,7 +7,7 @@
 [![npm download](https://img.shields.io/npm/dm/vitepress-plugin-compression?style=flat-square)](https://www.npmjs.com/package/vitepress-plugin-compression)
 [![license](https://img.shields.io/npm/l/vitepress-plugin-compression?style=flat-square)](https://github.com/manchan4869/vitepress-plugin-compression/blob/main/LICENSE)
 
-打包 `build` 文件夹的 [VitePress](https://github.com/vuejs/vitepress) 插件。
+打包 `build` 文件夹的 [VitePress](https://github.com/vuejs/vitepress) 插件。[官方文档](https://vitepress-plugin-compression.manchan.top/zh-cn/)
 
 [English](https://github.com/manchan4869/vitepress-plugin-compression#readme) | 简体中文
 
