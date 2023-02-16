@@ -1,4 +1,4 @@
-# vitepress-plugin-compression
+# VitePress-Plugin-Compression
 
 [![npm](https://img.shields.io/npm/v/vitepress-plugin-compression.svg?style=flat-square)](https://www.npmjs.com/package/vitepress-plugin-compression)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/vitepress-plugin-compression?style=flat-square)](https://bundlephobia.com/package/vitepress-plugin-compression@latest)
@@ -7,7 +7,7 @@
 [![npm download](https://img.shields.io/npm/dm/vitepress-plugin-compression?style=flat-square)](https://www.npmjs.com/package/vitepress-plugin-compression)
 [![license](https://img.shields.io/npm/l/vitepress-plugin-compression?style=flat-square)](https://github.com/manchan4869/vitepress-plugin-compression/blob/main/LICENSE)
 
-VitePress plugin for packing build folder.
+VitePress plugin for packing build folder.[Official Docs](https://vitepress-plugin-compression.manchan.top/).
 
 English | [简体中文](./README.zh-CN.md)
 
