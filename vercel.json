@@ -1,0 +1,22 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path((?!zh-cn/).*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "x-vercel-ip-country",
+          "value": "CN"
+        },
+        {
+          "type": "header",
+          "key": "sec-fetch-dest",
+          "value": "document"
+        }
+      ],
+      "destination": "/zh-cn/:path*",
+      "permanent": false
+    }
+  ]
+}
