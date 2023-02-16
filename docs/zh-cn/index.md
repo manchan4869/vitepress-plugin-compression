@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速上手
-      link: /guide
+      link: /zh-cn/guide
     - theme: alt
       text: 在GitHub查看
       link: https://github.com/manchan4869/vitepress-plugin-compression
