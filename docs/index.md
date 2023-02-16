@@ -1,13 +1,13 @@
 ---
 layout: home
-title: home
+title: Home
 hero:
   name: VitePress-Plugin-Compression
   text: VitePress plugin for packing build folder.
   tagline: Zip, 7Zip, Tar, and more ...
-  image:
-    src: https://rollupjs.org/rollup-logo.svg
-    alt: VitePress
+  # image:
+  #   src: https://rollupjs.org/rollup-logo.svg
+  #   alt: VitePress
   actions:
     - theme: brand
       text: Get Started
